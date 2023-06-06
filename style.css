@@ -83,22 +83,25 @@
 .clock span::after {
     font-size: 16px;
     position: absolute;
-    bottom: -50px;
-    left: -50px;
+    bottom: -50%;
+    left: -50%;
     transform: translate(-50%, -50%);
 }
 
 #hrs::after {
+    font-size: 20px;
     content: "Hours";
 
 }
 
 #minus::after {
+    font-size: 20px;
     content: "Mins";
 
 }
 
 #sec::after {
+    font-size: 20px;
     content: "Sec";
 
 }
